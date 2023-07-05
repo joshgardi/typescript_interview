@@ -2,7 +2,7 @@
 
 Matricula: 2190040
 
-# 1. Este problema fue pedido por Amazon.
+## 1. Este problema fue pedido por Amazon.
 
 Existe una escalera con N escalones, y puedes subir 1 o 2 escalones a la vez. Dado N, escribe una función que devuelva el número de formas únicas en que puedes subir la escalera. El orden de los pasos importa.
 
@@ -31,7 +31,7 @@ La complejidad de tiempo de la solución al problema es O(n), donde n es el núm
 
 En la solución propuesta, se usa un bucle que itera n veces para calcular las formas únicas de subir la escalera. Dentro de cada iteración, realizamos operaciones de tiempo constante para calcular el número de formas únicas. Por lo tanto, a medida que el tamaño de entrada (número de escalones) aumenta, el tiempo de ejecución de la función aumenta de manera lineal, lo que lleva a una complejidad de O(n). Es importante tener en cuenta que esta complejidad asume que el conjunto de pasos permitidos es de tamaño constante. Si el tamaño del conjunto de pasos permitidos también aumenta con n, entonces la complejidad sería O(n * m), donde m es el tamaño del conjunto de pasos permitidos. Sin embargo, si m es un valor constante, la complejidad se reduce a O(n).
 
-# 2. Uber preguntó recientemente el problema:
+## 2. Uber preguntó recientemente el problema:
 
 Dada una cadena s y un carácter c, encuentre la distancia entre todos los caracteres de la cadena y el carácter c de la cadena s. Puede suponer que el carácter c aparecerá al menos una vez en la cadena.
 
@@ -54,7 +54,7 @@ En el primer bucle for, se recorre la cadena s para encontrar el índice del car
 En general, podemos decir que el tiempo de ejecución de la función shortest_dist es proporcional al tamaño de la cadena, por lo que la complejidad de tiempo es O(n), donde n es el tamaño de la cadena. En cuanto al espacio, se utiliza una lista llamada distances para almacenar las distancias. El tamaño de esta lista es igual al tamaño de la cadena, por lo que la complejidad de espacio es O(n), donde n es el tamaño de la cadena. En resumen, la solución tiene una complejidad de tiempo O(n) y una complejidad de espacio O(n), donde n es el tamaño de la cadena s.
 
 
-# 3. Facebook preguntó recientemente el problema: (Slider Window)
+## 3. Facebook preguntó recientemente el problema: (Slider Window)
 
 Dada una matriz de números positivos y un número positivo 'S', encuentre la longitud del subarreglo contiguo más pequeño cuya suma es mayor o igual que 'S'. Retorna 0, si no existe tal subarreglo
 
